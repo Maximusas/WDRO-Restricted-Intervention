@@ -65,11 +65,11 @@ MSE_cr=rep(0,test_env)
 MSE_m=rep(0,test_env)
 MSE_wcr_oracle=rep(0,test_env)
 MSE_cr_oracle=rep(0,test_env)
-nsim=2
+nsim=50
 maxmatrix=matrix(0,nsim,8)
 meanmatrix=matrix(0,nsim,8)
 
-maxshift=2
+maxshift=18
 mean97=matrix(0,maxshift,8)
 mean2=matrix(0,maxshift,8)
 meanmean=matrix(0,maxshift,8)
