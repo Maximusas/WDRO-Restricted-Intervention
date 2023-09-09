@@ -1,4 +1,4 @@
-pkgs=c("MASS", "glmnet", "CVXR", "RPtests","ggplot2")
+pkgs=c("MASS", "glmnet", "CVXR", "RPtests")
 for(package in pkgs){
   if(!require(package,character.only = TRUE)) {install.packages(package)}
   library(package, character.only = TRUE)
