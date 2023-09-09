@@ -1,3 +1,7 @@
+####################################################################
+# Working directory should be the root of the code folder
+####################################################################
+
 #plot_generator is a function that generates the plot for the Martingale estimator
 #of the parent oracle and the Martingale estimator that includes a redundant covariate
 #Input:
