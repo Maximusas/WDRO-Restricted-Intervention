@@ -1,3 +1,5 @@
+library(quadprog)
+
 #Martinale WDRO estimator
 tikhonov_constrained=function(X,y,A,lambda){
   n=nrow(X)

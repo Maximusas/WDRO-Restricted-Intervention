@@ -1,3 +1,10 @@
+pkgs=c("MASS", "glmnet", "CVXR", "RPtests","ggplot2")
+for(package in pkgs){
+  if(!require(package,character.only = TRUE)) {install.packages(package)}
+  library(package, character.only = TRUE)
+}
+suppressWarnings(library(CVXR, warn.conflicts=FALSE))
+
 #PH-Anchor-RWP
 Pseudo_Huber_Anchor_RWP=function(yanch, Xanch, delta){
   #Draw standard normals to compute the variance of Z
